@@ -182,7 +182,6 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  height: 300px; /* only for demonstration, should be removed */
   background-image: url(footerImage.jpg);
 }
 
