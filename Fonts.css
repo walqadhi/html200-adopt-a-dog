@@ -6,10 +6,10 @@ h1 {
 }
 h2 {
   font-family: Martial;
-  font-size: 24px;
+  font-size: 1.5 rem;
 }
 header {
-  padding: 30px;
+  padding: 1.875rem;
   background-color:  red;
 
 }
@@ -18,7 +18,6 @@ body {
 }
 .box1{
 
-  height: 100px;
   width: 100%;
   background-color:  #f0f0f5;
 
@@ -26,18 +25,18 @@ body {
 
 .grid-box2{
     display: grid;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    grid-template-columns: 400px 400px;
-    padding-right: 300px;
+    padding-top: 2.5rem;
+    padding-bottom: 0.625rem;
+    grid-template-columns: 25rem 25rem;
+    padding-right: 18.75rem;
     justify-content: center;
-    min-height: 500px;
+    min-height: 31.25rem;
     grid-gap: 50px;
   }
 
 .box2{
 
-  height: 400px;
+  height: 25rem;
   width: 100%;
   background-color: pink;
 
@@ -51,14 +50,14 @@ body {
 }
 
 .box2-head2{
-  width: 750px;
+  width: 46.875rem;
   height: auto;
   grid-column: 2 / 3;
   grid-row: 1/2;
 }
 .box1-about{
 
-  height: 600px;
+  height: 37.5rem;
   width: 100%;
 }
 .head1-about{
@@ -74,11 +73,11 @@ body {
 
 .container{
 
-  height: 500px;
+  height: 31.25rem;
 }
 .container2{
 
-  height: 600px;
+  height: 37.5rem;
 }
 .head1{
   width: auto;
@@ -98,8 +97,8 @@ body {
 }
 
 .head1-header{
-  width: 300px;
-  height: 150px;
+  width: 18.75rem;
+  height: 9.375rem;
   display: flex;
   grid-column: 1 / 2;
   grid-row: 1/2;
@@ -112,7 +111,7 @@ justify-content: center;
 }
 .head2-header{
   width: 300px;
-  height: 150px;
+  height:9.375rem;
   display: flex;
   grid-column: 3 / 4;
   grid-row: 1/2;
@@ -121,7 +120,7 @@ justify-content: center;
 .head3{
   display: flex;
   width: auto;
-  height: 150px;
+  height: 9.375rem;
   justify-content: flex-start;
   grid-column: 3 / 4;
   grid-row: 1/2;
@@ -150,7 +149,7 @@ justify-content: center;
 }
 .container-instructor{
 
-  height: 700px;
+  height: 43.75rem;
   width: 100%;
 }
 .head1-instructor{
@@ -186,7 +185,7 @@ footer {
 }
 
 .container-footer{
-  max-width: 1140px;
+  max-width: 71.25rem;
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -203,40 +202,40 @@ text-align: center;
 
 .grid1 {
   display: grid;
-  padding-top: 20px;
-  padding-bottom: 60px;
-  padding-right: 100px;
-  padding-left: 100px;
-  grid-template-columns: 360px 360px 360px 360px;
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  grid-template-columns: 22rem 22rem 22rem 22rem;
   justify-content: center;
-  min-height: 500px;
-  grid-gap: 80px;
+  min-height: 31rem;
+  grid-gap: 5rem;
 }
 .grid2 {
   display: grid;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  grid-template-columns: 330px 330px 330px;
+  padding-top: 2.5rem;
+  padding-bottom: 3.75rem;
+  grid-template-columns: 20.625rem 20.625rem 20.625rem;
   justify-content: center;
-  min-height: 300px;
-  grid-gap: 120px;
+  min-height: 18.75rem;
+  grid-gap: 7.5rem;
 }
 .grid3 {
   display: grid;
-  padding-top: 20px;
-  padding-bottom: 60px;
-  grid-template-columns: 800px;
+  padding-top: 1.25rem;
+  padding-bottom: 3.75rem;
+  grid-template-columns: 50rem;
   justify-content: right;
-  min-height: 500px;
-  grid-gap: 80px;
+  min-height: 31.25rem;
+  grid-gap: 50rem;
   width: auto;
 }
 .gridwrapper_5 {
   display: grid;
-  grid-template-columns: 360px 360px 360px 360px;
+  grid-template-columns: 22.5rem 22.5rem 22.5rem 22.5rem;
   justify-content: center;
   grid-auto-flow: row dense;
-  grid-gap: 1.5em;
+  grid-gap: 1.5rem;
 }
 .box1-contact{
 
@@ -249,7 +248,7 @@ text-align: center;
   grid-template-columns: 3fr 3fr 3fr;
   justify-content: center;
   grid-auto-flow: row dense;
-  grid-gap: 1.5em;
+  grid-gap: 1.5rem;
 }
 nav {
   width: auto;
@@ -268,13 +267,13 @@ nav a{
 display: block;
 font-family: inherit;
 font-size: 100%;
-width: 300px;
-height: 25px;
+width: 18.75rem;
+height: 1.563rem;
 box-sizing: border-box;
 }
 textarea{
-  width: 400px;
-  height: 100px;
+  width: 25rem;
+  height: 6.25rem;
 
 }
 button{
@@ -302,7 +301,7 @@ fieldset input{
   grid-template-columns: 3fr 3fr 3fr;
   justify-content: center;
   grid-auto-flow: row dense;
-  grid-gap: 1.5em;
+  grid-gap: 1.5rem;
 }
 .gridwrapper_5 input{
 
